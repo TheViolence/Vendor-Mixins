@@ -49,8 +49,8 @@ So when we was to create more compatible CSS code, we have to do it like:
 Now all browsers compatible with "border-radius" will ignore properties with prefixes while browsers which require the stuff like this will be able to handle it.
 
 Various browser have their own prefixes:
-- Chrome *-webkit-*
-- Firefox *-moz-*
-- IE *-ms-*
-- Opera *-webkit-* **or** *-o-*
-- Safari *-webkit-*
+- **Chrome:** *-webkit-*
+- **Firefox:** *-moz-*
+- **IE:** *-ms-*
+- **Opera:** *-webkit-* **or** *-o-*
+- **Safari:** *-webkit-*
