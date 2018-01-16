@@ -17,11 +17,11 @@ But we are able to make our CSS more compatible cross-browser by using vendor pr
 If you don't know what vendor prefixes are you will find out now.
 
 Example:
-    When you want make your div's corners rounded the simplest solution is using "border-radius" CSS property.
-    Following CSS code might looks like this:
-    
-    ```ruby
-    #radius {
-        border-radius: 5px;
-    }
-    ```
+When you want make your div's corners rounded the simplest solution is using "border-radius" CSS property.
+Following CSS code might looks like this:
+
+```ruby
+#radius {
+    border-radius: 5px;
+}
+```
