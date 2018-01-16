@@ -64,7 +64,7 @@ So if we want to create more compatible CSS code, we will have to do it like:
     border-radius: 5px
 ```
 
-Now all browsers compatible with *"border-radius"* will ignore properties with prefixes while browsers which require the stuff like this will be able to handle it.
+Now all browsers compatible with *"border-radius"* property will ignore properties with prefixes while browsers which require the stuff like this will be able to handle it.
 
 Various browser have their own prefixes:
 - **Chrome:** *-webkit-*
