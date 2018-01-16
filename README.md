@@ -20,11 +20,21 @@ Example:
 When you want make your div's corners rounded the simplest solution is using "border-radius" CSS property.
 Following CSS code might looks like this:
 
+**Pure CSS Syntax:**
 ```css
 #radius {
     border-radius: 5px;
 }
 ```
+
+**SASS Syntax:**
+```sass
+#radius
+    -moz-border-radius: 5px
+    -webkit-border-radius: 5px
+    border-radius: 5px
+```
+
 
 But looking on W3C "border-radius" property is incompatible with:
 - Chrome < 5.0
@@ -38,12 +48,21 @@ But looking deeply feature of rounding corners was launched earlier into those b
 
 So when we was to create more compatible CSS code, we have to do it like:
 
+**Pure CSS Syntax:**
 ```css
 #radius {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
+```
+
+**SASS Syntax:**
+```sass
+#radius
+    -moz-border-radius: 5px
+    -webkit-border-radius: 5px
+    border-radius: 5px
 ```
 
 Now all browsers compatible with "border-radius" will ignore properties with prefixes while browsers which require the stuff like this will be able to handle it.
