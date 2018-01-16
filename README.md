@@ -16,8 +16,7 @@ But we are able to make our CSS more compatible cross-browser by using vendor pr
 # Vendor prefixes
 If you don't know what vendor prefixes are you will find out now.
 
-Example:
-When you want make your div's corners rounded the simplest solution is using "border-radius" CSS property.
+For example when you want to make your div's corners rounded the simplest solution is using "border-radius" CSS property.
 Following CSS code might looks like this:
 
 **Pure CSS Syntax:**
@@ -36,7 +35,7 @@ Following CSS code might looks like this:
 ```
 
 
-But looking on W3C "border-radius" property is incompatible with:
+But looking on W3C docs "border-radius" property is incompatible with:
 - Chrome < 5.0
 - Firefox < 4.0
 - Safari < 5.0
