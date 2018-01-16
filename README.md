@@ -20,8 +20,37 @@ Example:
 When you want make your div's corners rounded the simplest solution is using "border-radius" CSS property.
 Following CSS code might looks like this:
 
-```ruby
+```css
 #radius {
     border-radius: 5px;
 }
 ```
+
+But looking on W3C "border-radius" property is incompatible with:
+- Chrome < 5.0
+- Firefox < 4.0
+- Safari < 5.0
+
+But looking deeply feature of rounding corners was launched earlier into those browsers:
+- Chrome >= 4.0 as "-webkit-border-radius"
+- Firefox >= 3.0 as "-moz-border-radius"
+- Safari >= 3.1 as "-webkit-border-radius"
+
+So when we was to create more compatible CSS code, we have to do it like:
+
+```css
+#radius {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+```
+
+Now all browsers compatible with "border-radius" will ignore properties with prefixes while browsers which require the stuff like this will be able to handle it.
+
+Various browser have their own prefixes:
+- Chrome *-webkit-*
+- Firefox *-moz-*
+- IE *-ms-*
+- Opera *-webkit-* **or** *-o-*
+- Safari *-webkit-*
