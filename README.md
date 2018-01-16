@@ -20,7 +20,6 @@ Example:
     When you want make your div's corners rounded the simplest solution is using "border-radius" CSS property.
     Following CSS code might looks like this:
     
-    ```css
-    #radius {
+    ```#radius {
         border-radius: 5px;
     }```
