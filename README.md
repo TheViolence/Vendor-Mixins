@@ -45,7 +45,7 @@ But looking deeper the feature of rounding corners was introduced earlier into t
 - **Firefox** >= *3.0* as *"-moz-border-radius"*
 - **Safari** >= *3.1* as *"-webkit-border-radius"*
 
-So when we was to create more compatible CSS code, we have to do it like:
+So if we want to create more compatible CSS code, we will have to do it like:
 
 **Pure CSS Syntax:**
 ```css
