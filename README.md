@@ -40,7 +40,7 @@ But looking on [**W3C Docs**](https://www.w3schools.com/cssref/css3_pr_border-ra
 - **Firefox** < *4.0*
 - **Safari** < *5.0*
 
-But looking deeply feature of rounding corners was launched earlier into those browsers:
+But looking deeply feature of rounding corners was introduced earlier into those browsers but it was called differently (depending on the browser):
 - **Chrome** >= *4.0* as *"-webkit-border-radius"*
 - **Firefox** >= *3.0* as *"-moz-border-radius"*
 - **Safari** >= *3.1* as *"-webkit-border-radius"*
