@@ -1,5 +1,5 @@
 # Vendor-Mixins
-Set of SaaS-Syntax mixins providing cross-browser compatibility.
+Set of SAAS-Syntax mixins providing cross-browser compatibility.
 ***
 
 # Cross-Browser compatibility
