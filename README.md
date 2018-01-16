@@ -4,7 +4,7 @@ Set of SaaS-Syntax mixins providing cross-browser compatibility.
 
 # Cross-Browser compatibility
 It is widely known that when you create your CSS you have to care about cross-browser compatibility.
-As most of the CSS properties are "universal" (works the same way in all popular browsers), they are some no fully compatible.
+As most of the CSS properties are "universal" (works the same way in all popular browsers), they are some not fully compatible.
 Let's focus on these. 
 We can divide them into two groups:
 - Totally incompatible
@@ -35,16 +35,15 @@ Following CSS code might looks like this:
     border-radius: 5px
 ```
 
-
-But looking on W3C docs *"border-radius"* property is incompatible with:
-- Chrome < 5.0
-- Firefox < 4.0
-- Safari < 5.0
+But looking on [**W3C Docs**](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) *"border-radius"* property is incompatible with:
+- **Chrome** < *5.0*
+- **Firefox** < *4.0*
+- **Safari** < *5.0*
 
 But looking deeply feature of rounding corners was launched earlier into those browsers:
-- Chrome >= 4.0 as "-webkit-border-radius"
-- Firefox >= 3.0 as "-moz-border-radius"
-- Safari >= 3.1 as "-webkit-border-radius"
+- **Chrome** >= *4.0* as *"-webkit-border-radius"*
+- **Firefox** >= *3.0* as *"-moz-border-radius"*
+- **Safari** >= *3.1* as *"-webkit-border-radius"*
 
 So when we was to create more compatible CSS code, we have to do it like:
 
