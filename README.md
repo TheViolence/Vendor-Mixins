@@ -11,12 +11,13 @@ We can divide them into two groups:
 - Compatible with vendor prefix
 
 If it comes about totally incompatible we can't do anything excluding replacing them by another propeties/ideas.
-But we are able to make our CSS more compatible cross-browser by using vendor prefixes.
+But we are able to make our CSS more cross-browser compatible by using vendor prefixes.
+***
 
 # Vendor prefixes
 If you don't know what vendor prefixes are you will find out now.
 
-For example when you want to make your div's corners rounded the simplest solution is using "border-radius" CSS property.
+For example when you want to make your div's corners rounded the simplest solution is using *"border-radius"* CSS property.
 Following CSS code might looks like this:
 
 **Pure CSS Syntax:**
@@ -35,7 +36,7 @@ Following CSS code might looks like this:
 ```
 
 
-But looking on W3C docs "border-radius" property is incompatible with:
+But looking on W3C docs *"border-radius"* property is incompatible with:
 - Chrome < 5.0
 - Firefox < 4.0
 - Safari < 5.0
@@ -64,7 +65,7 @@ So when we was to create more compatible CSS code, we have to do it like:
     border-radius: 5px
 ```
 
-Now all browsers compatible with "border-radius" will ignore properties with prefixes while browsers which require the stuff like this will be able to handle it.
+Now all browsers compatible with *"border-radius"* will ignore properties with prefixes while browsers which require the stuff like this will be able to handle it.
 
 Various browser have their own prefixes:
 - **Chrome:** *-webkit-*
