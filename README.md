@@ -30,8 +30,6 @@ Following CSS code might looks like this:
 **SASS Syntax:**
 ```sass
 #radius
-    -moz-border-radius: 5px
-    -webkit-border-radius: 5px
     border-radius: 5px
 ```
 
