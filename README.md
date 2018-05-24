@@ -33,7 +33,7 @@ Following CSS code might looks like this:
     border-radius: 5px
 ```
 
-But looking on [**W3C Docs**](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) *"border-radius"* property is incompatible with:
+But looking on docs *"border-radius"* property is incompatible with:
 - **Chrome** < *5.0*
 - **Firefox** < *4.0*
 - **Safari** < *5.0*
